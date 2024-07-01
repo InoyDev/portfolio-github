@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="Yoni Mahieddine" description="">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos de moi"
+				tagline="Merci de votre passage ! Prenez un moment pour en apprendre davantage sur moi et mon parcours."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/about.jpg"
+					alt="Yoni"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Parcours</h2>
+				<div class="content">
+					<p>
+						Une fois obtenu mon <strong>Baccalauréat</strong> général spécialisé en <strong>Mathématiques
+						 et Sciences Économiques et Sociales avec option mathématiques expertes </strong> , j'ai intégré le Bachelor Universitaire de Technologie Informatique à l'IUT Lyon 1.
+					</p>
+					<p>
+						J’ai décidé de me spécialiser dans le parcours AGED (Administration et Gestion des Entreprises et des Données) 
+						à partir de ma deuxième année en raison de mon intérêt marqué pour la Business Intelligence 
+						et de la concordance de mes aptitudes avec ce qui est exigé dans ce domaine. Cette spécialisation me 
+						permet de combiner ma passion pour l’informatique avec ma capacité à analyser et gérer des données complexes,
+						 ouvrant ainsi la voie à des opportunités de carrière enrichissantes et en adéquation avec mes ambitions professionnelles.
+					</p>
+				</div>
+			</section>
+
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
