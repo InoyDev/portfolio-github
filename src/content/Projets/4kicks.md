@@ -15,17 +15,16 @@ tags:
 ## <a href="https://www.4kicks.store/">Boutique E-commerce</a> 
 
 #### Contexte et objectifs
-Le projet a consisté en la création d'un site web de vente en ligne spécialisé dans les sneakers. La ligne directrice du projet
-étais de créer une plateforme de vente complète spécialisée dans les sneakers tout en permettant de facilement suivre les tendances actuelles. Ce site a été réalisé en collaboration avec 3 autres collègues et présenté dans le cardre d'un projet universitaire.
+Le projet a consisté en la création d'un site Web de vente en ligne spécialisé dans les sneakers. La ligne directrice du projet était de créer une plateforme de vente complète spécialisée dans les sneakers tout en permettant de facilement suivre les tendances actuelles. Ce site a été réalisé en collaboration avec 3 autres collègues et présenté dans le cadre d'un projet universitaire.
 
-La réalisation de cette boutique en ligne est passé par une série de tâches complexes dont la gestion des produits en base de données, une gestion des comptes (création, connexion, stockage), la possibilité de lier son compte a un site tiers (google, github), l'ajout d'une vérification d'emails, l'intégration d'un système de paiement, la réalisation de fonctionnalités administrateurs complexes et  bien d'autres choses.
+La réalisation de cette boutique en ligne est passée par une série de tâches complexes, dont la gestion des produits en base de données, une gestion des comptes (création, connexion, stockage), la possibilité de lier son compte à un site tiers (Google, Github), l'ajout d'une vérification d'e-mails, l'intégration d'un système de paiement, la réalisation de fonctionnalités administrateurs complexes et bien d'autres choses.
 
 
 #### Ce que ce projet m'a apporté
 
-Ce projet m'a apporté une expertise approfondie dans diverses technologies et en gestion de projet. J'ai acquis des compétences pratiques en développement front-end avec ReactJS et NextJS, et en back-end avec NodeJS et Prisma. Le déploiement sur Vercel et l'utilisation de Cloudflare, Stripe, et Planet Scale ont enrichi mes connaissances en solutions d'hébergement et de paiement en ligne. 
+Ce projet m'a apporté une expertise approfondie dans diverses technologies et en gestion de projet. J'ai acquis des compétences pratiques en développement front-end avec ReactJS et NextJS, et en back-end avec NodeJS et Prisma. Le déploiement sur Vercel et l'utilisation de Cloudflare, Stripe, et Planet Scale ont enrichi mes connaissances en solutions d'hébergement et de paiement en ligne.
 
-En termes de gestion de projet, j'ai appris à utiliser des outils collaboratifs tels que Discord, GitLab, Asana, Figma, et Notion, ce qui a amélioré ma capacité à coordonner les tâches, gérer les versions, et suivre l'avancement du projet de manière efficace et organisée.
+En matière de gestion de projet, j'ai appris à utiliser des outils collaboratifs tels que Discord, GitLab, Asana, Figma, et Notion, ce qui a amélioré ma capacité à coordonner les tâches, à gérer les versions, et à suivre l'avancement du projet de manière efficace et organisée en méthode Agile.
 
 #### Les Fonctionnalités
 
