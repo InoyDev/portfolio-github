@@ -4,32 +4,51 @@ publishDate: 2020-03-02 00:00:00
 img: /assets/accueil.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  4Kicks se distingue comme une boutique en ligne innovante offrant une gamme complète et toujours à la pointe de la tendance en matière de sneakers.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - React
+  - Next
+  - Prisma
+  - Tailwind
 ---
 
-## Level-two heading
+## <a href="https://www.4kicks.store/">Boutique E-commerce</a> 
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+#### Contexte et objectifs
+Le projet a consisté en la création d'un site web de vente en ligne spécialisé dans les sneakers. La ligne directrice du projet
+étais de créer une plateforme de vente complète spécialisée dans les sneakers tout en permettant de facilement suivre les tendances actuelles. Ce site a été réalisé en collaboration avec 3 autres collègues et présenté dans le cardre d'un projet universitaire.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+La réalisation de cette boutique en ligne est passé par une série de tâches complexes dont la gestion des produits en base de données, une gestion des comptes (création, connexion, stockage), la possibilité de lier son compte a un site tiers (google, github), l'ajout d'une vérification d'emails, l'intégration d'un système de paiement, la réalisation de fonctionnalités administrateurs complexes et  bien d'autres choses.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
 
-### Level-three heading
+#### Ce que ce projet m'a apporté
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+Ce projet m'a apporté une expertise approfondie dans diverses technologies et en gestion de projet. J'ai acquis des compétences pratiques en développement front-end avec ReactJS et NextJS, et en back-end avec NodeJS et Prisma. Le déploiement sur Vercel et l'utilisation de Cloudflare, Stripe, et Planet Scale ont enrichi mes connaissances en solutions d'hébergement et de paiement en ligne. 
 
-### Level-three heading
+En termes de gestion de projet, j'ai appris à utiliser des outils collaboratifs tels que Discord, GitLab, Asana, Figma, et Notion, ce qui a amélioré ma capacité à coordonner les tâches, gérer les versions, et suivre l'avancement du projet de manière efficace et organisée.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+#### Les Fonctionnalités
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+##### Utilisateur
 
-#### Level-four heading
+- Inscription et Création de Compte Personnel
+- Accès à un compte personnel pour une expérience de shopping personnalisée et sécurisée.
+- Liaison de Compte Externe (Google, Apple)
+- Connexion à l’Espace Personnel
+- Personnalisation du Profil (photo de profil, pseudonyme, adresse e-mail, etc.)
+- Recherche intuitive de Produits dans des catégories et sous-catégories
+- Gestion des articles en Favoris (ajout, visualisation, supression)
+- Pouvoir procéder au paiement par différents moyens (Carte bleu, Paypal)
+- Utilisation de Codes Promotionnels
+- Confirmation de commande par couriel et envoi de la facture
+- Accès à son historique de commandes
+- Évaluer un article précédemment commandé
 
-- We noted this
-- And also this other point
+##### Administrateur
+- Gestion des Utilisateurs (visualitation, modification du statut, banissement)
+- Annulation ou modification du statut d’une commande
+- Gestion des produits (ajout, modification, supression)
+- Gestion des codes promotionnels
+- Modification du slider de la page d'accueil
+
+
