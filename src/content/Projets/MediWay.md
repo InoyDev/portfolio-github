@@ -12,7 +12,7 @@ tags:
   - Scrum
 ---
 
-### Projet universitaire
+#### Projet universitaire
 
 L'objectif de ce projet est de réaliser une application de gestion d'itinéraires pour des dispensaires de santés. En effet, dans le cadre d'une mission humanitaires, un réseau de différents types de dispensaires de santés (centre de soin, pharmacie, maternité) a besoin d'un outil puissant, performant et fiable afin de gérer efficacement l'acheminement des malades, soignants et médicaments. Pour cela, le réseau de dispensaires et les routes qui les relient sont représentés par un graphe que l'on extrait d'un fichier csv. L'objectif est également d'utiliser un algorithme de parcours de graphe pertinent afin d'optimiser les délais d'execution.
 
@@ -26,7 +26,7 @@ Cela m'a également permis d'acquérir et consolider de nombreuses compétences 
 - Mise en place de l'algorithme de parcours de graphe (Dijkstra)
 - Création et gestion des tests unitaires avec JUnit
 
-### Fonctionnalités
+#### Fonctionnalités
 
 L'application a été conçu afin de permettre aux utilisateurs d'avoir la plus grande panoplie de fonctionnalités et de personnalisation possible a sa disposition :
 
