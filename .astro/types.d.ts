@@ -192,13 +192,6 @@ declare module 'astro:content' {
   collection: "work";
   data: any
 } & { render(): Render[".md"] };
-"Visualisation.md": {
-	id: "Visualisation.md";
-  slug: "visualisation";
-  body: string;
-  collection: "work";
-  data: any
-} & { render(): Render[".md"] };
 "nested/assistant.md": {
 	id: "nested/assistant.md";
   slug: "nested/assistant";
