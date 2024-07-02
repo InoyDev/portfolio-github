@@ -2,21 +2,36 @@
 title: MediWay
 publishDate: 2020-03-04 00:00:00
 img: /assets/MediWay.png
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
-description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+img_alt: MediWay
+description: 🎓 MediWay est une application innovante de gestion et de planification d'itinéraires à travers un réseau de dispensaires de santé.
 tags:
   - Java
+  - Maven
   - Swing
+  - JUnit
   - Scrum
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+### Projet universitaire
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+L'objectif de ce projet est de réaliser une application de gestion d'itinéraires pour des dispensaires de santés. En effet, dans le cadre d'une mission humanitaires, un réseau de différents types de dispensaires de santés (centre de soin, pharmacie, maternité) a besoin d'un outil puissant, performant et fiable afin de gérer efficacement l'acheminement des malades, soignants et médicaments. Pour cela, le réseau de dispensaires et les routes qui les relient sont représentés par un graphe que l'on extrait d'un fichier csv. L'objectif est également d'utiliser un algorithme de parcours de graphe pertinent afin d'optimiser les délais d'execution.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Ce projet a été réalisé en binome durant tout le second semestre de ma première année de Bachelor. La réalisation de ce projet en conditions "réelles", avec la réalisation d'un cahier des charges, le suivi du projet en méthode agile, le respect d'exigences techniques rigoureuses et la réalisation d'une soutenance final, a permis d'avoir une véritable première expérience de ce à quoi ressemble un projet grandeur nature. 
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Cela m'a également permis d'acquérir et consolider de nombreuses compétences techniques :
+- Gestion d'un projet git complexe
+- Plannification et répartition des taches sur un projet de grande envergure
+- Développer une application complète en Java avec Maven
+- Réalisation d'une interface avec Swing
+- Mise en place de l'algorithme de parcours de graphe (Dijkstra)
+- Création et gestion des tests unitaires avec JUnit
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### Fonctionnalités
+
+L'application a été conçu afin de permettre aux utilisateurs d'avoir la plus grande panoplie de fonctionnalités et de personnalisation possible a sa disposition :
+
+- Gestion du fichier qui stocke le graphe
+- Visualisation du graphe et personalisation du visuel
+- Modification du graphe directement dans le fichier (pensionnaires, routes)
+- Afficher des pensionnaires selon plusieurs éléments (nature, voisinage, route)
+- Donner le chemin selon différents facteurs (temps de trajet, longueur, fiabilité, pensionnaires parcourus)

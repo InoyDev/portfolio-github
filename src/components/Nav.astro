@@ -6,8 +6,8 @@ import type { iconPaths } from './IconPaths';
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Accueil', href: '/' },
-	{ label: 'Projets', href: '/work/' },
-	{ label: 'Compétences', href: '/skills/' },
+	{ label: 'Projets', href: '/Projets/' },
+	//{ label: 'Compétences', href: '/skills/' },
 	{ label: 'À propos de moi', href: '/about/' },
 ];
 
@@ -25,7 +25,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<img src="/public/client.svg" alt="Client Icon" width="24" height="24" />
+			<img src="/client.svg" alt="Client Icon" width="24" height="24" />
 			Yoni
 		</a>
 		<menu-button>

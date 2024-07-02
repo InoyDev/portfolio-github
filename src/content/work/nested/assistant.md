@@ -12,18 +12,16 @@ tags:
 ---
 
 
-## Assistant de vente
+## Un assistant propulsé par l'IA
 
-En tant que stagiaire chez Mad Impact, j’ai eu l’opportunité de contribuer au développement d’un Assistant de Vente Virtuel, une extension destinée à améliorer l’expérience d’achat en ligne pour les boutiques. Mon rôle a consisté à concevoir et à développer le backend de l’assistant, en utilisant des technologies telles que Flask pour l’API RESTful, Elasticsearch pour la recherche de données, et SpaCy pour le traitement avancé des requêtes clients. J’ai également intégré l’API OpenAI pour fournir des réponses personnalisées et pertinentes aux utilisateurs, en mettant l’accent sur la réduction des coûts et l’optimisation des performances. Ce projet m’a permis de renforcer mes compétences en développement Python et en intégration de services IA, tout en contribuant à un produit innovant au sein d’une entreprise en pleine croissance technologique.
+En tant que stagiaire chez Mad Impact, une agence web et mobile de Villeurbanne, j’ai eu l’opportunité de contribuer au développement d’un projet interne d'assistant de vente virtuel. Une extension destinée à améliorer l’expérience d’achat en ligne sur des boutiques e-commerce. Cet assistant ce présente comme un chatbot et a pour but de proposer a l'utilisateur des produits pertinent en fonciton de ses besoin. L'objectif de cet assistant est d'augmenter le taux de conversion (et donc augmenter les ventes), d'améliorer l'expérience utilisateur et de maximiser la satifascion client.
 
-### Compétences mises en oeuvre
+### Ma contribution
 
-- Réaliser un développement d’application (UE1)
+Mon rôle a consisté à concevoir et à développer le backend de l’assistant, en utilisant des technologies telles que Flask pour l’API RESTful, Elasticsearch pour la recherche de données, et SpaCy pour le traitement avancé des requêtes clients. J’ai également intégré l’API OpenAI pour fournir des réponses personnalisées et pertinentes aux utilisateurs, en mettant l’accent sur la réduction des coûts et l’optimisation des performances. 
 
-- Optimiser des applications informatiques (UE2)
+### Les apports de ce projet
 
-- Gérer des données de l’information (UE4)
+Ce projet m’a permis de renforcer mes compétences en développement Python et en intégration de services IA, tout en contribuant à un produit innovant au sein d’une entreprise en pleine croissance technologique.
 
-- Conduire un projet (UE5)
-
-- Travailler dans une équipe informatique (UE6)
+### Le futur de l'assistant
