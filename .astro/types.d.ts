@@ -125,14 +125,29 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"Projets": Record<string, {
-  id: string;
-  slug: string;
+		"Projets": {
+"4kicks.md": {
+	id: "4kicks.md";
+  slug: "4kicks";
   body: string;
   collection: "Projets";
-  data: InferEntrySchema<"Projets">;
-  render(): Render[".md"];
-}>;
+  data: InferEntrySchema<"Projets">
+} & { render(): Render[".md"] };
+"MediWay.md": {
+	id: "MediWay.md";
+  slug: "mediway";
+  body: string;
+  collection: "Projets";
+  data: InferEntrySchema<"Projets">
+} & { render(): Render[".md"] };
+"assistant.md": {
+	id: "assistant.md";
+  slug: "assistant";
+  body: string;
+  collection: "Projets";
+  data: InferEntrySchema<"Projets">
+} & { render(): Render[".md"] };
+};
 "skills": {
 "1dev.md": {
 	id: "1dev.md";
@@ -174,29 +189,6 @@ declare module 'astro:content' {
   slug: "6collaborer";
   body: string;
   collection: "skills";
-  data: any
-} & { render(): Render[".md"] };
-};
-"work": {
-"4kicks.md": {
-	id: "4kicks.md";
-  slug: "4kicks";
-  body: string;
-  collection: "work";
-  data: any
-} & { render(): Render[".md"] };
-"MediWay.md": {
-	id: "MediWay.md";
-  slug: "mediway";
-  body: string;
-  collection: "work";
-  data: any
-} & { render(): Render[".md"] };
-"nested/assistant.md": {
-	id: "nested/assistant.md";
-  slug: "nested/assistant";
-  body: string;
-  collection: "work";
   data: any
 } & { render(): Render[".md"] };
 };
