@@ -18,7 +18,7 @@ En tant que stagiaire chez Mad Impact, une agence Web et Mobile basée à Villeu
 
 #### Ma contribution
 
-Mon rôle a consisté à concevoir et à développer le backend de l’assistant, en utilisant des technologies telles que Flask pour l’API RESTful, Elasticsearch pour la recherche de données, et SpaCy pour le traitement avancé des requêtes clients. J’ai également intégré l’API OpenAI pour fournir des réponses personnalisées et pertinentes aux utilisateurs, en mettant l’accent sur la réduction des coûts et l’optimisation des performances. 
+Mon rôle a consisté à concevoir et à développer le backend de l’assistant, en utilisant des technologies telles que Flask pour l’API RESTful, Elasticsearch pour la recherche de données, et SpaCy pour le traitement avancé (traitement du langage ou NLP) des requêtes clients. J’ai également intégré l’API OpenAI pour fournir des réponses personnalisées et pertinentes aux utilisateurs, en mettant l’accent sur la réduction des coûts et l’optimisation des performances. 
 
 #### Les apports de ce projet
 
