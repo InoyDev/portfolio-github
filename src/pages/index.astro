@@ -31,7 +31,7 @@ const projects = (await getCollection('Projets'))
 			<header class="hero">
 				<Hero
 					title="Yoni Mahieddine"
-					tagline="Étudiant en BUT Informatique spécialisé en data, je suis actuellement à la recherche d'une alternance en Business Intelligence. Les métiers de Data Analyst, Data Engineer ou encore Data Scientist m'intérressent tout particulièrement."
+					tagline="Étudiant en BUT Informatique spécialisé en Data, je suis actuellement à la recherche d'une alternance en Business Intelligence. Les métiers de Data Analyst, Data Engineer ou encore Data Scientist m'intérressent tout particulièrement."
 					align="start"
 				>
 					<div class="roles">
@@ -93,13 +93,13 @@ const projects = (await getCollection('Projets'))
 	}
 
 	.roles {
-		display: flex; /* Utiliser flexbox pour aligner le contenu horizontalement */
-  		justify-content: center; /* Centrer le contenu */
+		display: flex; 
+  		justify-content: center;
   		align-items: center;
-  		flex-wrap: wrap; /* Pour gérer le responsive */
-  		position: relative; /* Assurer que l'élément est positionné correctement */
-  		z-index: 1; /* Mettre au-dessus de l’image ou des arrière-plans */
-  		visibility: visible; /* Assurer que l'élément est bien visible */
+  		flex-wrap: wrap; 
+  		position: relative; 
+  		z-index: 1; 
+  		visibility: visible;
 		margin-bottom: 2rem;
 		padding-top: 2rem;
 		gap: 1rem
@@ -116,7 +116,7 @@ const projects = (await getCollection('Projets'))
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 		margin-bottom: 4rem;
-		max-width: 80%;  /* Ajuste cette valeur selon tes besoins */
+		max-width: 80%;
     	max-height: 80%;
 	}
 
@@ -126,19 +126,24 @@ const projects = (await getCollection('Projets'))
 			grid-template-columns: 6fr 4fr;
 			padding-inline: 2.5rem;
 			gap: 3.75rem;
-			position: relative; /* S'assurer que l'image reste relative à ce conteneur */
+			position: relative;
   			overflow: visible;
+		}
+
+		.hero-title {
+    		margin-bottom: 10rem;
 		}
 
 		.roles {
 			margin-top: 0.5rem;
 			display: flex;
 			gap: 0.5rem;
+			padding-right: 4.0463rem;
 		}
 
 		.hero img {
-			max-width: 100%; /* S’assurer que l’image ne déborde pas */
-  			max-height: 100%; /* Éviter un rognage vertical */
+			max-width: 100%;
+  			max-height: 100%;
   			object-position: center;
 			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
