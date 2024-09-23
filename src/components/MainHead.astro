@@ -26,21 +26,26 @@ const {
 	rel="stylesheet"
 />
 <script is:inline>
-	// This code is inlined in the head to make dark mode instant & blocking.
+	// Function to get the user's theme preference from localStorage or system preference
 	const getThemePreference = () => {
 		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+			// Use the theme stored in localStorage if available
 			return localStorage.getItem('theme');
 		}
-		return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+		// Otherwise, use the system's preference (light by default)
+		return 'light'; // On force ici light comme thème par défaut
 	};
+
+	// Apply the theme to the document's HTML element
 	const isLight = getThemePreference() === 'light';
 	document.documentElement.classList[isLight ? 'add' : 'remove']('theme-light');
+	document.documentElement.classList[isLight ? 'remove' : 'add']('theme-dark');
 
+	// Persist theme changes in localStorage when the user changes it
 	if (typeof localStorage !== 'undefined') {
-		// Watch the document element and persist user preference when it changes.
 		const observer = new MutationObserver(() => {
 			const isLight = document.documentElement.classList.contains('theme-light');
-			localStorage.setItem('theme', isLight ? 'light' : 'light');
+			localStorage.setItem('theme', isLight ? 'light' : 'dark');
 		});
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
