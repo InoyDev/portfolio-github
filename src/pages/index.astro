@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Analytics from '../components/Analytics.astro';
 
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -24,7 +25,10 @@ const projects = (await getCollection('Projets'))
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
 ---
-
+<head>
+	<meta charset="UTF-8">
+	<Analytics />
+  </head>
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">

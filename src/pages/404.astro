@@ -1,8 +1,12 @@
 ---
 import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Analytics from '../components/Analytics.astro';
 ---
-
+<head>
+	<meta charset="UTF-8">
+	<Analytics />
+  </head>
 <BaseLayout title="Not Found" description="404 Error — this page was not found">
 	<Hero title="Page Not Found" tagline="Not found" />
 </BaseLayout>

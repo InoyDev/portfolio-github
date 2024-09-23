@@ -1,9 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Analytics from '../components/Analytics.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
+<head>
+	<meta charset="UTF-8">
+	<Analytics />
+  </head>
 
 <BaseLayout title="Yoni Mahieddine" description="">
 	<div class="stack gap-20">

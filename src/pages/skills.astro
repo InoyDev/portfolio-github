@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Analytics from '../components/Analytics.astro';
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 
@@ -12,7 +13,10 @@ const projects = (await getCollection('skills')).sort(
 	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
 ---
-
+<head>
+	<meta charset="UTF-8">
+	<Analytics />
+  </head>
 <BaseLayout
 	title="Yoni Mahieddine"
 	description=""
