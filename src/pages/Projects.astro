@@ -5,6 +5,7 @@ import Analytics from '../components/Analytics.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
+import ResumeCTA from '../components/ResumeCTA.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Hero from '../components/Hero.astro';
 import Grid from '../components/Grid.astro';
@@ -39,6 +40,6 @@ const projets = (await getCollection('Projects')).sort(
 				}
 			</Grid>
 		</main>
-		<ContactCTA />
+		<ResumeCTA />
 	</div>
 </BaseLayout>
