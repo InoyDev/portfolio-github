@@ -15,6 +15,7 @@ import PortfolioPreview from '../components/PortfolioPreview.astro';
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
+import ResumeCTA from '../components/ResumeCTA.astro';
 import Skills from '../components/Skills.astro';
 
 // Content Fetching: List four most recent Projets projects
@@ -84,6 +85,7 @@ const projects = (await getCollection('Projects'))
 		</main>
 
 		<ContactCTA />
+		<ResumeCTA />
 	</div>
 </BaseLayout>
 
