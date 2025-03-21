@@ -1,7 +1,7 @@
 ---
-title: 2/ 4Kicks
-publishDate: 2020-03-02 00:00:00
-img: /assets/accueil.png
+title: GECY
+publishDate: 2019-03-02 00:00:00
+img: /assets/GECY.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   4Kicks se distingue comme une boutique en ligne innovante offrant une gamme complète et toujours à la pointe de la tendance en matière de sneakers.

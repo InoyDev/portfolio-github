@@ -1,9 +1,9 @@
 ---
 title: MediWay
-publishDate: 2020-03-04 00:00:00
+publishDate: 2016-03-04 00:00:00
 img: /assets/MediWay.png
 img_alt: MediWay
-description: 🎓 MediWay est une application innovante de gestion et de planification d'itinéraires à travers un réseau de dispensaires de santé.
+description: 🎓 MediWay is an innovative application for managing and planning itineraries through a network of health clinics.
 tags:
   - Java
   - Maven
@@ -12,26 +12,26 @@ tags:
   - Scrum
 ---
 
-#### Projet universitaire
+#### University project
 
-L'objectif de ce projet est de réaliser une application de gestion d'itinéraires pour des dispensaires de santés. En effet, dans le cadre d'une mission humanitaires, un réseau de différents types de dispensaires de santés (centre de soin, pharmacie, maternité) a besoin d'un outil puissant, performant et fiable afin de gérer efficacement l'acheminement des malades, soignants et médicaments. Pour cela, le réseau de dispensaires et les routes qui les relient sont représentés par un graphe que l'on extrait d'un fichier csv. L'objectif est également d'utiliser un algorithme de parcours de graphe pertinent afin d'optimiser les délais d'execution.
+The aim of this project is to develop an itinerary management application for health clinics. As part of a humanitarian mission, a network of different types of health clinic (health centre, pharmacy, maternity unit) needs a powerful, high-performance and reliable tool to efficiently manage the routing of patients, carers and medicines. To achieve this, the network of clinics and the routes linking them are represented by a graph extracted from a csv file. The aim is also to use a relevant graph traversal algorithm to optimise execution times.
 
-Ce projet a été réalisé en binome durant tout le second semestre de ma première année de Bachelor. La réalisation de ce projet en conditions "réelles", avec la réalisation d'un cahier des charges, le suivi du projet en méthode agile, le respect d'exigences techniques rigoureuses et la réalisation d'une soutenance final, a permis d'avoir une véritable première expérience de ce à quoi ressemble un projet grandeur nature. 
+This project was carried out in pairs throughout the second semester of my first year of my Bachelor's degree. Carrying out this project under “real” conditions, with the drawing up of specifications, monitoring the project using an agile method, complying with rigorous technical requirements and carrying out a final presentation, gave me a real first experience of what a full-scale project is like.
 
-Cela m'a également permis d'acquérir et consolider de nombreuses compétences techniques :
-- Gestion d'un projet git complexe
-- Plannification et répartition des taches sur un projet de grande envergure
-- Développer une application complète en Java avec Maven
-- Réalisation d'une interface avec Swing
-- Mise en place de l'algorithme de parcours de graphe (Dijkstra)
-- Création et gestion des tests unitaires avec JUnit
+It also enabled me to acquire and consolidate a number of technical skills:
+- Managing a complex git project
+- Planning and distributing tasks on a large-scale project
+- Developing a complete Java application with Maven
+- Creating an interface with Swing
+- Implementing the graph traversal algorithm (Dijkstra)
+- Creating and managing unit tests with JUnit
 
-#### Fonctionnalités
+#### Features
 
-L'application a été conçu afin de permettre aux utilisateurs d'avoir la plus grande panoplie de fonctionnalités et de personnalisation possible a sa disposition :
+The application has been designed to provide users with the widest possible range of functions and customisation options:
 
-- Gestion du fichier qui stocke le graphe
-- Visualisation du graphe et personalisation du visuel
-- Modification du graphe directement dans le fichier (pensionnaires, routes)
-- Afficher des pensionnaires selon plusieurs éléments (nature, voisinage, route)
-- Donner le chemin selon différents facteurs (temps de trajet, longueur, fiabilité, pensionnaires parcourus)
+- Management of the file that stores the graph
+- Viewing the graph and customising the visual
+- Modifying the graph directly in the file (residents, routes)
+- Displaying residents according to several criteria (type, neighbourhood, route)
+- Giving the route according to different factors (journey time, length, reliability, residents travelled)

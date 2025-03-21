@@ -1,10 +1,10 @@
 ---
-title: 2/ 4Kicks
-publishDate: 2020-03-02 00:00:00
+title: 4Kicks
+publishDate: 2017-03-02 00:00:00
 img: /assets/accueil.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  4Kicks se distingue comme une boutique en ligne innovante offrant une gamme complète et toujours à la pointe de la tendance en matière de sneakers.
+  4Kicks stands out as an innovative online shop offering a complete range of sneakers that are always at the cutting edge of the latest trends.
 tags:
   - React
   - Next
@@ -12,42 +12,41 @@ tags:
   - Tailwind
 ---
 
-## <a href="https://www.4kicks.store/">Boutique E-commerce</a> 
+## <a href="https://www.4kicks.store/">E-commerce shop</a> 
 
-#### Contexte et objectifs
-Le projet a consisté en la création d'un site Web de vente en ligne spécialisé dans les sneakers. La ligne directrice du projet était de créer une plateforme de vente complète spécialisée dans les sneakers tout en permettant de facilement suivre les tendances actuelles. Ce site a été réalisé en collaboration avec 3 autres collègues et présenté dans le cadre d'un projet universitaire.
+#### Context and aims
+The project involved creating an online sales website specialising in sneakers. The guiding principle of the project was to create a complete sales platform specialising in sneakers, while making it easy to keep up with current trends. This site was created in collaboration with 3 other colleagues and presented as part of a university project.
 
-La réalisation de cette boutique en ligne est passée par une série de tâches complexes, dont la gestion des produits en base de données, une gestion des comptes (création, connexion, stockage), la possibilité de lier son compte à un site tiers (Google, Github), l'ajout d'une vérification d'e-mails, l'intégration d'un système de paiement, la réalisation de fonctionnalités administrateurs complexes et bien d'autres choses.
+The creation of this online shop involved a series of complex tasks, including managing products in a database, managing accounts (creation, connection, storage), linking the account to a third-party site (Google, Github), adding an e-mail checker, integrating a payment system, creating complex administrator functions and much more.
 
 
-#### Ce que ce projet m'a apporté
+#### What I gained from the project
 
-Ce projet m'a apporté une expertise approfondie dans diverses technologies et en gestion de projet. J'ai acquis des compétences pratiques en développement front-end avec ReactJS et NextJS, et en back-end avec NodeJS et Prisma. Le déploiement sur Vercel et l'utilisation de Cloudflare, Stripe, et Planet Scale ont enrichi mes connaissances en solutions d'hébergement et de paiement en ligne.
+This project has given me a deep expertise in various technologies and in project management. I acquired practical skills in front-end development with ReactJS and NextJS, and back-end development with NodeJS and Prisma. Deploying on Vercel and using Cloudflare, Stripe and Planet Scale enriched my knowledge of online hosting and payment solutions.
 
-En matière de gestion de projet, j'ai appris à utiliser des outils collaboratifs tels que Discord, GitLab, Asana, Figma, et Notion, ce qui a amélioré ma capacité à coordonner les tâches, à gérer les versions, et à suivre l'avancement du projet de manière efficace et organisée en méthode Agile.
+In terms of project management, I learned to use collaborative tools such as Discord, GitLab, Asana, Figma, and Notion, which improved my ability to coordinate tasks, manage versions, and track project progress in an efficient and organised way using the Agile method.
 
-#### Les Fonctionnalités
+#### Features
 
-##### Utilisateur
+##### User
 
-- Inscription et Création de Compte Personnel
-- Accès à un compte personnel pour une expérience de shopping personnalisée et sécurisée.
-- Liaison de Compte Externe (Google, Apple)
-- Connexion à l’Espace Personnel
-- Personnalisation du Profil (photo de profil, pseudonyme, adresse e-mail, etc.)
-- Recherche intuitive de Produits dans des catégories et sous-catégories
-- Gestion des articles en Favoris (ajout, visualisation, supression)
-- Pouvoir procéder au paiement par différents moyens (Carte bleu, Paypal)
-- Utilisation de Codes Promotionnels
-- Confirmation de commande par couriel et envoi de la facture
-- Accès à son historique de commandes
-- Évaluer un article précédemment commandé
+- Registration and Personal Account Creation
+- Access to a personal account for a personalised and secure shopping experience.
+- External Account Link (Google, Apple)
+- Log in to the Personal Area
+- Personalise your Profile (profile photo, pseudonym, e-mail address, etc.)
+- Intuitive search for Products in categories and sub-categories
+- Manage Favourite items (add, view, delete)
+- Pay by various methods (Credit Card, Paypal)
+- Use Promotional Codes
+- Order confirmation by e-mail and invoice
+- Access your order history
+- Review a previously ordered item.
 
-##### Administrateur
-- Gestion des Utilisateurs (visualitation, modification du statut, banissement)
-- Annulation ou modification du statut d’une commande
-- Gestion des produits (ajout, modification, supression)
-- Gestion des codes promotionnels
-- Modification du slider de la page d'accueil
-
+##### Administrator
+- User management (viewing, changing status, banning)
+- Cancelling or changing the status of an order
+- Product management (adding, changing, deleting)
+- Managing promotional codes
+- Changing the home page slider
 

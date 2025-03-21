@@ -1,15 +1,15 @@
 ---
-title: 2/ 4Kicks
+title: Reporting Grafana
 publishDate: 2020-03-02 00:00:00
-img: /assets/accueil.png
+img: /assets/grafana.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   4Kicks se distingue comme une boutique en ligne innovante offrant une gamme complète et toujours à la pointe de la tendance en matière de sneakers.
 tags:
-  - React
-  - Next
-  - Prisma
-  - Tailwind
+  - Grafana
+  - Operationnal Reporting
+  - SQL Server
+  - MySQL
 ---
 
 ## <a href="https://www.4kicks.store/">Boutique E-commerce</a> 
