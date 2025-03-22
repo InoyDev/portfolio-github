@@ -1,5 +1,5 @@
 ---
-title: Vendeur virtuel
+title: Virtual Sales
 publishDate: 2018-10-02 00:00:00
 img: /assets/chatbot.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.

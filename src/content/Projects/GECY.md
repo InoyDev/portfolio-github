@@ -6,9 +6,9 @@ img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   4Kicks se distingue comme une boutique en ligne innovante offrant une gamme complète et toujours à la pointe de la tendance en matière de sneakers.
 tags:
-  - React
-  - Next
-  - Prisma
+  - PowerApps
+  - PowerFX
+  - 
   - Tailwind
 ---
 
@@ -26,28 +26,27 @@ Ce projet m'a apporté une expertise approfondie dans diverses technologies et e
 
 En matière de gestion de projet, j'ai appris à utiliser des outils collaboratifs tels que Discord, GitLab, Asana, Figma, et Notion, ce qui a amélioré ma capacité à coordonner les tâches, à gérer les versions, et à suivre l'avancement du projet de manière efficace et organisée en méthode Agile.
 
-#### Les Fonctionnalités
+#### Déploiement et Résultats
 
-##### Utilisateur
+##### A - Production launch and adoption by teams
 
-- Inscription et Création de Compte Personnel
-- Accès à un compte personnel pour une expérience de shopping personnalisée et sécurisée.
-- Liaison de Compte Externe (Google, Apple)
-- Connexion à l’Espace Personnel
-- Personnalisation du Profil (photo de profil, pseudonyme, adresse e-mail, etc.)
-- Recherche intuitive de Produits dans des catégories et sous-catégories
-- Gestion des articles en Favoris (ajout, visualisation, supression)
-- Pouvoir procéder au paiement par différents moyens (Carte bleu, Paypal)
-- Utilisation de Codes Promotionnels
-- Confirmation de commande par couriel et envoi de la facture
-- Accès à son historique de commandes
-- Évaluer un article précédemment commandé
+Once the application had been developed, it was rolled out on the shop floor in a number of stages:
 
-##### Administrateur
-- Gestion des Utilisateurs (visualitation, modification du statut, banissement)
-- Annulation ou modification du statut d’une commande
-- Gestion des produits (ajout, modification, supression)
-- Gestion des codes promotionnels
-- Modification du slider de la page d'accueil
+- Installation of QR codes on each storage location to enable rapid entry via a scanner.
+- Training operators to use the application to ensure rapid adoption.
+- Gradual integration into production processes, with tests under real conditions to adjust the final parameters before large-scale use.
 
+##### B - Gains and benefits
+Initial results show significant gains in productivity and data accuracy:
+- Reduction in OF research time, thus improving the fluidity of production.
+- Real-time monitoring of work-in-progress stocks, enabling better priority management.
+- Secure access, preventing errors and ensuring better traceability.
+- Intuitive, user-friendly interface, making it easy for users to adopt.
 
+##### C - Outlook for the future
+
+The GECY application is designed to be scalable and could eventually:
+
+- Be deployed on all Solustil sites in order to standardise the management of work-in-progress stocks.
+- Manage other types of stock, in addition to work-in-progress, according to identified needs.
+- Be directly connected to the new ERP/MES, for centralised and automated management.
