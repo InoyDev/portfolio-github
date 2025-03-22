@@ -8,7 +8,7 @@ description: |
 tags:
   - PowerApps
   - PowerFX
-  - 
+  - Mobile App
   - Tailwind
 ---
 
@@ -37,7 +37,9 @@ Once the application had been developed, it was rolled out on the shop floor in 
 - Gradual integration into production processes, with tests under real conditions to adjust the final parameters before large-scale use.
 
 ##### B - Gains and benefits
+
 Initial results show significant gains in productivity and data accuracy:
+
 - Reduction in OF research time, thus improving the fluidity of production.
 - Real-time monitoring of work-in-progress stocks, enabling better priority management.
 - Secure access, preventing errors and ensuring better traceability.
