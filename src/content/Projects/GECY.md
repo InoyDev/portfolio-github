@@ -4,29 +4,34 @@ publishDate: 2019-03-02 00:00:00
 img: /assets/GECY.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  4Kicks se distingue comme une boutique en ligne innovante offrant une gamme complète et toujours à la pointe de la tendance en matière de sneakers.
+  🚀 GECY is a mobile application that allows you to manage different types of stock independently. This project was carried out as part of one of my professional experiences.
 tags:
-  - PowerApps
-  - PowerFX
   - Mobile App
-  - Tailwind
+  - Management
+  - PowerApps
 ---
 
 ## <a href="https://www.4kicks.store/">Boutique E-commerce</a> 
 
-#### Contexte et objectifs
-Le projet a consisté en la création d'un site Web de vente en ligne spécialisé dans les sneakers. La ligne directrice du projet était de créer une plateforme de vente complète spécialisée dans les sneakers tout en permettant de facilement suivre les tendances actuelles. Ce site a été réalisé en collaboration avec 3 autres collègues et présenté dans le cadre d'un projet universitaire.
+#### Context and challenges
 
-La réalisation de cette boutique en ligne est passée par une série de tâches complexes, dont la gestion des produits en base de données, une gestion des comptes (création, connexion, stockage), la possibilité de lier son compte à un site tiers (Google, Github), l'ajout d'une vérification d'e-mails, l'intégration d'un système de paiement, la réalisation de fonctionnalités administrateurs complexes et bien d'autres choses.
+As part of my job as ERP Project Manager for the Cellino Group. I identified a problem in the production processes at one of the group's sites, which after discussions was also present at a large number of other sites.
 
+To put this into context, production orders (POs) go through several stages before ending up as a finished product. Between each operation, for example between cutting and folding, some production orders are temporarily stored due to bottlenecks that prevent them from being processed immediately. These POs are known as work-in-process stocks.
 
-#### Ce que ce projet m'a apporté
+Until now, these intermediate stocks were managed on paper, a system that was slow, unreliable and rarely updated. This lack of digital tracking meant that considerable time was lost in locating POs when they had to be reintegrated into the production process.
 
-Ce projet m'a apporté une expertise approfondie dans diverses technologies et en gestion de projet. J'ai acquis des compétences pratiques en développement front-end avec ReactJS et NextJS, et en back-end avec NodeJS et Prisma. Le déploiement sur Vercel et l'utilisation de Cloudflare, Stripe, et Planet Scale ont enrichi mes connaissances en solutions d'hébergement et de paiement en ligne.
+The challenges of the project were several:
+- To speed up the search for POs in order to improve the flow of production and avoid interruptions.
+- Make data more reliable by eliminating errors associated with manual data entry.
+- Real-time monitoring of stock entries and removals.
 
-En matière de gestion de projet, j'ai appris à utiliser des outils collaboratifs tels que Discord, GitLab, Asana, Figma, et Notion, ce qui a amélioré ma capacité à coordonner les tâches, à gérer les versions, et à suivre l'avancement du projet de manière efficace et organisée en méthode Agile.
+The solution chosen consisted in developing a mobile application
+enabling the registration and instant consultation of
+work-in-progress storage locations via a data entry and
+digital search system.
 
-#### Déploiement et Résultats
+#### Deployment and Outcomes
 
 ##### A - Production launch and adoption by teams
 
@@ -40,7 +45,7 @@ Once the application had been developed, it was rolled out on the shop floor in 
 
 Initial results show significant gains in productivity and data accuracy:
 
-- Reduction in OF research time, thus improving the fluidity of production.
+- Reduction in POs research time, thus improving the fluidity of production.
 - Real-time monitoring of work-in-progress stocks, enabling better priority management.
 - Secure access, preventing errors and ensuring better traceability.
 - Intuitive, user-friendly interface, making it easy for users to adopt.
