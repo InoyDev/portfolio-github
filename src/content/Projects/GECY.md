@@ -11,8 +11,6 @@ tags:
   - PowerApps
 ---
 
-## <a href="https://www.4kicks.store/">Boutique E-commerce</a> 
-
 #### Context and challenges
 
 As part of my job as ERP Project Manager for the Cellino Group. I identified a problem in the production processes at one of the group's sites, which after discussions was also present at a large number of other sites.
