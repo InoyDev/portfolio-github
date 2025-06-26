@@ -4,7 +4,7 @@ publishDate: 2020-03-02 00:00:00
 img: /assets/donnees.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Administrer une base de données, concevoir et réaliser des systèmes d'informations décisionnels
 tags:
   - Design
   - Dev
