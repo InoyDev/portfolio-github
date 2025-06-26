@@ -6,7 +6,8 @@ img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Manager une équipe informatique
 tags:
-  - vfe
+  - GECY
+  - GRAFANA
 ---
 
 ### Recul réflexif
