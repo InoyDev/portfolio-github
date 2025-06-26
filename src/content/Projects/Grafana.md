@@ -39,9 +39,11 @@ Several dashboards were built and deployed, focusing on the most critical operat
 
 Each dashboard required advanced SQL queries capable of joining numerous complex tables and performing sophisticated calculations. Special care was taken to optimize query performance, ensure data consistency, and provide dynamic filtering tailored to each user.
 
+
 ##### B - Cross-functional collaboration and training
 
 The project involved constant collaboration with the plant director, production managers, and IT teams to align on business expectations, validate indicators, and adapt visualizations. I also conducted user training sessions to promote adoption and ensure that the dashboards could become daily decision-making tools.
+
 
 ##### C - Measurable impact
 	•	Improved reactivity and visibility into production performance.
@@ -49,7 +51,6 @@ The project involved constant collaboration with the plant director, production 
 	•	Strengthened data culture by introducing a visual, data-driven approach to daily operations.
 	•	Standardized monitoring framework that facilitates KPI tracking and cross-department alignment.
 
-⸻
 
 #### Outlook for the future
 
