@@ -11,25 +11,39 @@ tags:
   - User Testing
 ---
 
-## Level-two heading
+### Recul réflexif
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+Mon alternance m’a permis de m’immerger pleinement dans la gestion de projets informatiques au sein d’un environnement industriel complexe. Loin de se limiter à l’exécution de tâches techniques, la conduite de projet implique de comprendre les enjeux métiers, d’écouter et d’analyser les besoins des différentes parties prenantes, et d’adapter la solution aux contraintes de terrain, qu’elles soient techniques, organisationnelles ou humaines.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+J’ai appris qu’un projet ne se résume pas à une suite d’étapes linéaires, mais qu’il évolue constamment en fonction des retours utilisateurs, des imprévus techniques et des priorités stratégiques. Il m’a fallu faire preuve d’agilité, de diplomatie et parfois de pédagogie pour faire avancer les projets dans la bonne direction tout en conciliant des intérêts parfois divergents.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Cette expérience m’a donné confiance en ma capacité à gérer des projets de bout en bout, à piloter une solution de son cadrage fonctionnel à sa mise en production, et à en assurer le suivi tout en maintenant un dialogue constant avec les utilisateurs finaux.
 
-### Level-three heading
+### Compétences mises en œuvre 
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+- Recueillir et formaliser les besoins des utilisateurs
+- Concevoir des solutions répondant à des contraintes métier et techniques
+- Élaborer une feuille de route projet réaliste et suivie
+- Coordonner les différents acteurs du projet
+- Piloter l’avancement d’un projet et s’adapter aux imprévus
+- Assurer la livraison et le déploiement d’une solution fonctionnelle
+- Mettre en place un accompagnement à la prise en main des outils développés
 
-### Level-three heading
+### Traces & preuves
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+#####	Projet GECY :
+- Projet mené de A à Z : analyse du besoin, création de l’application, tests, formation des opérateurs, déploiement.
+- Coordination entre les opérateurs, la direction du site et les équipes informatiques.
+- Adaptation de la solution à chaque retour utilisateur.
+- Gestion des délais, des tests terrain, et des contraintes techniques.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+##### Projet Grafana – Reporting opérationnel :
+- Pilotage du projet de création de dashboards pour le site de Montélier.
+- Recueil des indicateurs nécessaires auprès de la direction.
+- Intégration progressive de nouvelles vues en fonction des priorités exprimées.
 
-#### Level-four heading
+##### Participation à la bascule ERP/MES :
+- Analyse des impacts sur les processus existants.
+- Accompagnement des utilisateurs sur la mise en place des nouveaux outils.
+- Réunions régulières avec les différents responsables métiers pour assurer la coordination.
 
-- We noted this
-- And also this other point

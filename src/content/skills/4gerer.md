@@ -29,14 +29,15 @@ Cette expérience m’a également fait prendre conscience de l’importance de 
 
 ### Traces & preuves
 
-#### Projet Grafana :
+##### Projet Grafana :
 
 - Réalisation de dashboards connectés à des bases SQL Server et MySQL.
 - Extraction et croisement de données issues de plus de 10 tables, avec calculs d’indicateurs complexes (rendement, CA, taux d’utilisation machine…).
 - Formatage des résultats en vue d’une lecture métier.
 - Déploiement en production sur le site de Montélier.
   
-#### Projet GECY :
+##### Projet GECY :
+
 - Développement d’une application PowerApps reposant sur la gestion de données opérationnelles (emplacements de stockage WIP).
 - Conception d’un modèle relationnel léger et création de l’interface de saisie/lecture des données.
 - Automatisation de certains traitements via Power Automate.
