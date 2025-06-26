@@ -6,9 +6,7 @@ img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Participer à la conception et à la mise en oeuvre d'un projet système d'information
 tags:
-  - Design
-  - Dev
-  - User Testing
+
 ---
 
 ### Recul réflexif

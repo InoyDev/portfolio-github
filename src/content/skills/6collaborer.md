@@ -6,30 +6,39 @@ img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Manager une équipe informatique
 tags:
-  - Design
-  - Dev
-  - User Testing
+
 ---
 
-## Level-two heading
+### Recul réflexif
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+L’alternance m’a offert une immersion concrète dans un environnement professionnel structuré, où la collaboration est essentielle à la réussite des projets. Travailler au sein de la centrale du groupe Solustil, en interaction avec les équipes terrain, les services informatiques, la direction et des partenaires externes, m’a permis de comprendre l’importance des dynamiques collectives, de la communication et de l’écoute active.
+J’ai appris à m’adapter à des interlocuteurs variés, à valoriser l’expertise de chacun et à construire une relation de confiance pour faire avancer les projets. Cette expérience m’a aussi sensibilisé à l’importance de la posture professionnelle, du respect des contraintes des autres services, et de l’animation d’échanges constructifs, même en cas de désaccord. Elle m’a fait grandir humainement autant que techniquement.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### Compétences mises en œuvre
 
-### Level-three heading
+- Collaborer efficacement avec des profils variés (métiers, IT, direction)
+- Adopter une communication claire et adaptée aux interlocuteurs
+- Prendre en compte les contraintes et attentes des autres équipes
+- Être force de proposition tout en respectant les équilibres collectifs
+- Favoriser l’adhésion autour d’un projet ou d’un outil
+- Accompagner les utilisateurs dans le changement
+- Participer activement aux réunions d’équipe et aux comités de suivi
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
 
-### Level-three heading
+### Traces & preuves
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+##### Projet GECY (application de suivi des stocks en cours)
+- Organisation et animation de plusieurs réunions avec les opérateurs, chefs d’équipe, référents ERP et responsables de production pour recueillir les besoins et arbitrer les priorités.
+- Mise en place d’un processus collaboratif de test terrain : retours hebdomadaires, ajustements en fonction des remarques des utilisateurs.
+- Formation sur site des utilisateurs à l’application (opérateurs, responsables de secteur), avec élaboration d’un support visuel partagé via SharePoint.
+- Création d’une documentation fonctionnelle détaillée à destination des équipes d’autres sites pour faciliter le déploiement futur.
+- Gestion des retours post-déploiement et mise en place d’un canal de communication pour le support et l’amélioration continue.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
 
-#### Level-four heading
-
-- We noted this
-- And also this other point
+##### Projet Grafana (reporting opérationnel pour le pilotage de la production)
+- Collaboration avec le directeur de site pour définir les indicateurs clés à visualiser et structurer la logique de pilotage.
+- Co-construction des tableaux de bord avec des retours successifs des équipes métiers (qualité, production, direction) afin d’assurer une parfaite adéquation avec leurs usages quotidiens.
+- Participation à la stratégie de déploiement des dashboards et accompagnement à leur prise en main par les responsables d’atelier.
+- Communication claire autour de la scalabilité des dashboards pour leur déploiement futur sur d’autres sites du groupe.
+- Échanges réguliers avec l’équipe IT pour les aspects de sécurisation des accès, performance des requêtes, et intégration des données entre les bases ERP/MES.
