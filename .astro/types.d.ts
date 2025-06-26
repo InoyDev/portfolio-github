@@ -173,27 +173,6 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "skills": {
-"1dev.md": {
-	id: "1dev.md";
-  slug: "1dev";
-  body: string;
-  collection: "skills";
-  data: any
-} & { render(): Render[".md"] };
-"2optimiser.md": {
-	id: "2optimiser.md";
-  slug: "2optimiser";
-  body: string;
-  collection: "skills";
-  data: any
-} & { render(): Render[".md"] };
-"3administrer.md": {
-	id: "3administrer.md";
-  slug: "3administrer";
-  body: string;
-  collection: "skills";
-  data: any
-} & { render(): Render[".md"] };
 "4gerer.md": {
 	id: "4gerer.md";
   slug: "4gerer";

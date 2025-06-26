@@ -5,7 +5,8 @@ img: /assets/conduire.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Participer à la conception et à la mise en oeuvre d'un projet système d'information
-
+tags:
+  - vfe
 ---
 
 ### Recul réflexif

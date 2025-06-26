@@ -5,7 +5,10 @@ img: /assets/donnees.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Administrer une base de données, concevoir et réaliser des systèmes d'informations décisionnels
-
+tags:
+  - Design
+  - Dev
+  - User Testing
 ---
 
 ### Recul réflexif
