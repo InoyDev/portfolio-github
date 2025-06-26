@@ -20,10 +20,10 @@ As part of my role within the ERP team at Solustil, I was tasked with contributi
 The Montélier site, which had recently migrated to a new ERP (Cegid PMI) and MES developed by Optimis, became the pilot location for implementing modern dashboards aimed at operational steering. The goal was to turn raw production data into actionable insights, accessible to the plant’s operational and strategic teams.
 
 The challenges of the project were as follows:
-	•	Enable real-time monitoring of key production indicators, including revenue, throughput, stock composition, and shop floor activity.
-	•	Facilitate decision-making by transforming raw data from complex databases into clear, visual dashboards.
-	•	Bridge technical complexity and business needs, making data understandable and usable by non-technical staff.
-	•	Lay the foundations for scalable reporting, allowing dashboards to be quickly replicated across other production sites in the future.
+- Enable real-time monitoring of key production indicators, including revenue, throughput, stock composition, and shop floor activity.
+- Facilitate decision-making by transforming raw data from complex databases into clear, visual dashboards.
+- Bridge technical complexity and business needs, making data understandable and usable by non-technical staff.
+- Lay the foundations for scalable reporting, allowing dashboards to be quickly replicated across other production sites in the future.
 
 To meet these challenges, I developed a comprehensive suite of dashboards using Grafana, a modern, open-source data visualization platform connected to SQL Server and MySQL databases.
 
@@ -46,10 +46,10 @@ The project involved constant collaboration with the plant director, production 
 
 
 ##### C - Measurable impact
-	•	Improved reactivity and visibility into production performance.
-	•	Reduction in manual reporting efforts, freeing up time for analysis.
-	•	Strengthened data culture by introducing a visual, data-driven approach to daily operations.
-	•	Standardized monitoring framework that facilitates KPI tracking and cross-department alignment.
+- Improved reactivity and visibility into production performance.
+- Reduction in manual reporting efforts, freeing up time for analysis.
+- Strengthened data culture by introducing a visual, data-driven approach to daily operations.
+- Standardized monitoring framework that facilitates KPI tracking and cross-department alignment.
 
 
 #### Outlook for the future
