@@ -11,25 +11,47 @@ tags:
   - User Testing
 ---
 
-## Level-two heading
+#### Context and challenges
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+As part of my job as ERP Project Manager for the Cellino Group. I identified a problem in the production processes at one of the group's sites, which after discussions was also present at a large number of other sites.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+To put this into context, production orders (POs) go through several stages before ending up as a finished product. Between each operation, for example between cutting and folding, some production orders are temporarily stored due to bottlenecks that prevent them from being processed immediately. These POs are known as work-in-process stocks.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Until now, these intermediate stocks were managed on paper, a system that was slow, unreliable and rarely updated. This lack of digital tracking meant that considerable time was lost in locating POs when they had to be reintegrated into the production process.
 
-### Level-three heading
+The challenges of the project were several:
+- To speed up the search for POs in order to improve the flow of production and avoid interruptions.
+- Make data more reliable by eliminating errors associated with manual data entry.
+- Real-time monitoring of stock entries and removals.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+The solution chosen consisted in developing a mobile application
+enabling the registration and instant consultation of
+work-in-progress storage locations via a data entry and
+digital search system.
 
-### Level-three heading
+#### Deployment and Outcomes
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+##### A - Production launch and adoption by teams
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Once the application had been developed, it was rolled out on the shop floor in a number of stages:
 
-#### Level-four heading
+- Installation of QR codes on each storage location to enable rapid entry via a scanner.
+- Training operators to use the application to ensure rapid adoption.
+- Gradual integration into production processes, with tests under real conditions to adjust the final parameters before large-scale use.
 
-- We noted this
-- And also this other point
+##### B - Gains and benefits
+
+Initial results show significant gains in productivity and data accuracy:
+
+- Reduction in POs research time, thus improving the fluidity of production.
+- Real-time monitoring of work-in-progress stocks, enabling better priority management.
+- Secure access, preventing errors and ensuring better traceability.
+- Intuitive, user-friendly interface, making it easy for users to adopt.
+
+##### C - Outlook for the future
+
+The GECY application is designed to be scalable and could eventually:
+
+- Be deployed on all Solustil sites in order to standardise the management of work-in-progress stocks.
+- Manage other types of stock, in addition to work-in-progress, according to identified needs.
+- Be directly connected to the new ERP/MES, for centralised and automated management.
