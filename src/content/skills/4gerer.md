@@ -11,47 +11,34 @@ tags:
   - User Testing
 ---
 
-#### Context and challenges
+### Recul réflexif
 
-As part of my job as ERP Project Manager for the Cellino Group. I identified a problem in the production processes at one of the group's sites, which after discussions was also present at a large number of other sites.
+AAu cours de mon alternance chez Solustil, la gestion et l’exploitation des données ont occupé une place centrale dans mes missions. J’ai pu constater que la maîtrise des bases de données ne se limite pas à des connaissances techniques en SQL ou en modélisation, mais implique également une bonne compréhension des processus métiers, une rigueur dans la manipulation des données sensibles et une capacité à proposer des solutions robustes et évolutives.
 
-To put this into context, production orders (POs) go through several stages before ending up as a finished product. Between each operation, for example between cutting and folding, some production orders are temporarily stored due to bottlenecks that prevent them from being processed immediately. These POs are known as work-in-process stocks.
+L’environnement industriel dans lequel j’ai évolué m’a confronté à des systèmes d’information complexes, constitués de plusieurs bases interconnectées (ERP, MES, fichiers externes). J’ai appris à naviguer dans cette complexité, à structurer mes requêtes de manière performante et à formater les résultats pour répondre à des besoins métiers précis.
 
-Until now, these intermediate stocks were managed on paper, a system that was slow, unreliable and rarely updated. This lack of digital tracking meant that considerable time was lost in locating POs when they had to be reintegrated into the production process.
+Cette expérience m’a également fait prendre conscience de l’importance de la qualité et de la fiabilité des données dans la prise de décision. J’ai développé une réelle sensibilité à la cohérence des données, à leur structuration et à leur exploitation dans un objectif de pilotage et d’optimisation des processus.
 
-The challenges of the project were several:
-- To speed up the search for POs in order to improve the flow of production and avoid interruptions.
-- Make data more reliable by eliminating errors associated with manual data entry.
-- Real-time monitoring of stock entries and removals.
+### Compétences mises en œuvre
 
-The solution chosen consisted in developing a mobile application
-enabling the registration and instant consultation of
-work-in-progress storage locations via a data entry and
-digital search system.
+- Langage SQL avancé : rédaction de requêtes complexes avec jointures multiples, sous-requêtes, agrégations, CTE, et fonctions analytiques.
+- Modélisation de bases de données : compréhension de la logique relationnelle pour des bases de données avec plus de 350 tables
+- Optimisation des performances : structuration des requêtes pour réduire les temps de réponse et amélioration de la lisibilité pour maintenance ultérieure.
+- Sécurité et intégrité des données : prise en compte des droits d’accès et de la confidentialité dans la manipulation des données.
+- Interprétation métier : transformation de besoins métiers flous en structures de données pertinentes.
 
-#### Deployment and Outcomes
+### Traces & preuves
 
-##### A - Production launch and adoption by teams
+#### Projet Grafana :
 
-Once the application had been developed, it was rolled out on the shop floor in a number of stages:
-
-- Installation of QR codes on each storage location to enable rapid entry via a scanner.
-- Training operators to use the application to ensure rapid adoption.
-- Gradual integration into production processes, with tests under real conditions to adjust the final parameters before large-scale use.
-
-##### B - Gains and benefits
-
-Initial results show significant gains in productivity and data accuracy:
-
-- Reduction in POs research time, thus improving the fluidity of production.
-- Real-time monitoring of work-in-progress stocks, enabling better priority management.
-- Secure access, preventing errors and ensuring better traceability.
-- Intuitive, user-friendly interface, making it easy for users to adopt.
-
-##### C - Outlook for the future
-
-The GECY application is designed to be scalable and could eventually:
-
-- Be deployed on all Solustil sites in order to standardise the management of work-in-progress stocks.
-- Manage other types of stock, in addition to work-in-progress, according to identified needs.
-- Be directly connected to the new ERP/MES, for centralised and automated management.
+- Réalisation de dashboards connectés à des bases SQL Server et MySQL.
+- Extraction et croisement de données issues de plus de 10 tables, avec calculs d’indicateurs complexes (rendement, CA, taux d’utilisation machine…).
+- Formatage des résultats en vue d’une lecture métier.
+- Déploiement en production sur le site de Montélier.
+  
+#### Projet GECY :
+- Développement d’une application PowerApps reposant sur la gestion de données opérationnelles (emplacements de stockage WIP).
+- Conception d’un modèle relationnel léger et création de l’interface de saisie/lecture des données.
+- Automatisation de certains traitements via Power Automate.
+- Identification des sources pertinentes pour l’alimentation des indicateurs.
+- Analyse de la logique de structuration des données internes (OF, OP, stocks…).
